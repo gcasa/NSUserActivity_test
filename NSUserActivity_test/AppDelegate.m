@@ -14,11 +14,11 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+- (IBAction) button: (id)sender
 {
   // Insert code here to initialize your application
   NSUserActivity *activity = [[NSUserActivity alloc] initWithActivityType: @"INStartAudioCallIntent"];
-
+  
   activity.title = @"title";
   activity.delegate = self;
   activity.needsSave = YES;
@@ -29,10 +29,13 @@
   activity.requiredUserInfoKeys = [NSSet setWithArray:@[@"name", @"deep_link"]];
   activity.eligibleForSearch = YES;
   activity.eligibleForPublicIndexing = YES;
-
+  
   [activity becomeCurrent];
 }
 
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+}
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
   // Insert code here to tear down your application

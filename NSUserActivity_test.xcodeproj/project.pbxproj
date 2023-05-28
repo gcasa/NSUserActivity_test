@@ -11,6 +11,7 @@
 		143FD7102A22684F000AAA7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143FD70F2A22684F000AAA7D /* Assets.xcassets */; };
 		143FD7132A22684F000AAA7D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 143FD7112A22684F000AAA7D /* MainMenu.xib */; };
 		143FD7152A22684F000AAA7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FD7142A22684F000AAA7D /* main.m */; };
+		143FD71D2A23D2EB000AAA7D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 143FD71C2A23D2EB000AAA7D /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		143FD7122A22684F000AAA7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		143FD7142A22684F000AAA7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		143FD7162A22684F000AAA7D /* NSUserActivity_test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSUserActivity_test.entitlements; sourceTree = "<group>"; };
+		143FD71C2A23D2EB000AAA7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				143FD7112A22684F000AAA7D /* MainMenu.xib */,
 				143FD7142A22684F000AAA7D /* main.m */,
 				143FD7162A22684F000AAA7D /* NSUserActivity_test.entitlements */,
+				143FD71C2A23D2EB000AAA7D /* Info.plist */,
 			);
 			path = NSUserActivity_test;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			files = (
 				143FD7102A22684F000AAA7D /* Assets.xcassets in Resources */,
 				143FD7132A22684F000AAA7D /* MainMenu.xib in Resources */,
+				143FD71D2A23D2EB000AAA7D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
